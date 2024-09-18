@@ -1,1 +1,1 @@
-# ChoroidLayerBoundarySegmentation
+# This is a 3D ResUNet-based machine learning model, trained on swept-source optical coherence tomography (SS-OCT) with their corresponding choroid labeled images, designed to efficiently and robustly identify the choroid layer boundaries at its interfaces with the retina and sclera.
