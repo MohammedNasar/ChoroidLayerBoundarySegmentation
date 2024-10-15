@@ -6,5 +6,6 @@ This advanced machine learning model leverages a 3D ResUNet architecture to prec
 2. Robustly demarcate the boundaries between:
    - Choroid and retina
    - Choroid and sclera
+3. Main function to kick start the GUI: Choroid_Layer_Segmentation_GUI.m
 
 The model's design focuses on accuracy and reliability in segmenting these critical ocular structures, potentially aiding in the diagnosis and monitoring of various eye conditions affecting the choroid.
