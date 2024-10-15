@@ -1,12 +1,14 @@
-## 3D ResUNet Model for Choroid Layer Segmentation
+## Choroid Analysis Tool for Modeling and Quantifying Biomarkers in Vision-Threatening Retinal Disorders (e.g., Age-Related Macular Degeneration and Central Serous Chorioretinopathy)
+## A Deep Learning Approach for Choroid Layer Boundary and Choroid Vessel Segmentation
 
-This advanced machine learning model leverages a 3D ResUNet architecture to precisely delineate choroid layer boundaries in swept-source optical coherence tomography (SS-OCT) images. The model has been meticulously trained on a dataset of SS-OCT scans paired with expertly labeled choroid images, enabling it to:
+This advanced machine learning tool utilizes a 3D ResUNet architecture to accurately segment choroid layer boundaries in swept-source optical coherence tomography (SS-OCT) images. Trained on SS-OCT datasets with expert-labeled choroid layer boundary images, the model can:
 
-1. Efficiently identify the choroid layer
-2. Robustly demarcate the boundaries between:
-   - Choroid and retina
-   - Choroid and sclera
-3. Main function to kick start the GUI: Choroid_Layer_Segmentation_GUI.m
-4. Machine learning model(s) based on single epcoh or multi epoch aggregation not shared due to privacy constraints.
+    Precisely model the choroid layer by accurately delineating the boundaries between:
+        . Choroid and retina
+        . Choroid and sclera
+    
+    The main function to initiate the GUI: "Choroid_Layer_Segmentation_GUI.m"
+    
+    Due to privacy constraints, machine learning models based on single or multi-epoch aggregation are not available for sharing. However, if you're interested, feel free to reach out to me at <mohammednasari@gmail>. I can assist in building a new model by curating fresh data and developing a GUI for manually marking choroid layer boundaries in OCT images, which can then be used to prepare paired images for training the model.
 
-The model's design focuses on accuracy and reliability in segmenting these critical ocular structures, potentially aiding in the diagnosis and monitoring of various eye conditions affecting the choroid.
+The model is designed to provide accurate and reliable segmentation of these key ocular structures, supporting diagnosing and monitoring choroid-related eye conditions.
