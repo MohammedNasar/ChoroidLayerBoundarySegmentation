@@ -7,5 +7,6 @@ This advanced machine learning model leverages a 3D ResUNet architecture to prec
    - Choroid and retina
    - Choroid and sclera
 3. Main function to kick start the GUI: Choroid_Layer_Segmentation_GUI.m
+4. Machine learning model(s) based on single epcoh or multi epoch aggregation not shared due to privacy constraints.
 
 The model's design focuses on accuracy and reliability in segmenting these critical ocular structures, potentially aiding in the diagnosis and monitoring of various eye conditions affecting the choroid.
